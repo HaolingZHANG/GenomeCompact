@@ -1,1 +1,1 @@
-# GenomeCompact
+# Genome Compact
