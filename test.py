@@ -12,16 +12,18 @@ if __name__ == "__main__":
     total_calculate_count = int((len(source_pool) * (len(source_pool) - 1)) / 2)
     overlap_matrix = [[0 for col in range(len(source_pool))] for row in range(len(source_pool) - 1)]
     current_count = 0
-    for row in range(len(overlap_matrix)):
-        for col in range(row + 1, len(overlap_matrix[row])):
+    for row in range(len(source_pool)):
+        for col in range(row + 1, len(source_pool)):
             fuser = Fuser()
             fuser.calculate_overlap(source_pool[row], source_pool[col])
             overlap_length = fuser.get_overlap_length()
 
+            current_count += 1
+
             if overlap_length > 0:
                 overlap_matrix[row][col] = overlap_length
+                print(str(row) + ", " + str(col) + ", " + str(overlap_length) +
+                      ", " + str(current_count) + ", " + str(total_calculate_count))
 
-            current_count += 1
-            print("\r" + "Detect = " + str(current_count) + " | Total = " + str(total_calculate_count), end=" ")
 
-
+    print(overlap_matrix)

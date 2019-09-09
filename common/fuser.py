@@ -57,12 +57,6 @@ class Fuser(object):
                                   numpy.where(minor_strand[1] != " ")[0],
                                   start_position)
 
-                # print()
-                # print("".join(major_strand[0]))
-                # print("".join(major_strand[1]))
-                # print("".join(minor_strand[0]))
-                # print("".join(minor_strand[1]))
-                # print()
                 for index in range(len(minor_strand[0])):
                     # print("index = " + str(index))
                     major_state, minor_state = recoder.get_current_state()
@@ -70,18 +64,18 @@ class Fuser(object):
                     passes = self._get_current_pass(major_state, minor_state)
                     # print("init_pass_way = " + str(passes))
 
-                    current_major_bases = self._get_current_bases(major_strand, start_position + index, major_state)
-                    current_minor_bases = self._get_current_bases(minor_strand, index, minor_state)
+                    major_bases = self._get_current_bases(major_strand, start_position + index, major_state)
+                    minor_bases = self._get_current_bases(minor_strand, index, minor_state)
                     same_flag = False
 
-                    # print("current_major_bases = " + str(current_major_bases) +
-                    #       ", current_minor_bases = " + str(current_minor_bases))
+                    # print("major_bases = " + str(major_bases) +
+                    #       ", minor_bases = " + str(minor_bases))
 
-                    for major_index in range(len(current_major_bases)):
-                        for minor_index in range(len(current_minor_bases)):
+                    for major_index in range(len(major_bases)):
+                        for minor_index in range(len(minor_bases)):
                             if passes[major_index][minor_index] \
-                                    and self.is_same_base(current_major_bases[major_index],
-                                                          current_minor_bases[minor_index]):
+                                    and self.is_same_base(major_bases[major_index],
+                                                          minor_bases[minor_index]):
                                 same_flag = True
                             else:
                                 passes[major_index][minor_index] = False
@@ -93,7 +87,8 @@ class Fuser(object):
                         break
 
                     recoder.update(index, passes)
-                    if start_position + index == len(major_strand[0]) - 1 and index == len(minor_strand[0]) - 1:
+                    
+                    if start_position + index == len(major_strand[0]) - 1 or index == len(minor_strand[0]) - 1:
                         if ((index + 1) > self._overlap) or ((index + 1) == self._overlap and min_replace > replace):
                             self._major_strand = copy.deepcopy(major_strand)
                             self._minor_strand = copy.deepcopy(minor_strand)
@@ -101,8 +96,6 @@ class Fuser(object):
                             self._overlap = index + 1
                             min_replace = replace
                         break
-
-        # print(self._recoder)
 
     def _init_matched_group(self, dna_1, dna_2):
         """
@@ -197,8 +190,8 @@ class Fuser(object):
 
         :return: update Pattern DNA
         """
-        print("".join(original_strand[0]))
-        print("".join(original_strand[1]))
+        # print("".join(original_strand[0]))
+        # print("".join(original_strand[1]))
         strand = copy.deepcopy(original_strand)
         positions = numpy.where(original_strand[1] != " ")[0]
         index = 0
@@ -209,8 +202,8 @@ class Fuser(object):
                 strand[1][positions[index: index + 3]] = " "
             index += 3
 
-        print("".join(strand[0]))
-        print("".join(strand[1]))
+        # print("".join(strand[0]))
+        # print("".join(strand[1]))
         return strand
 
     def _merge_strands(self, major_strand, minor_strand, start_position):
@@ -226,7 +219,7 @@ class Fuser(object):
 
         # fuse prepositive strand
         strand = [major_strand[0][:start_position], major_strand[1][:start_position]]
-        # TODO
+        # TODO consider the
 
         return strand
 
@@ -249,6 +242,8 @@ class Fuser(object):
 
         :return: the result of judgement.
         """
+        print(str(base_1) + ", " + str(base_1))
+
         if base_1 == " " or base_2 == " ":
             return False
 
