@@ -17,7 +17,8 @@ from methods.fuser import init_matched_group
 from methods.dna import PatternDNA
 from utils import accessor
 
-read_path = "../data_set/X174.0.00.protein.fa"
+read_path = "../data_set/Ecoli_K-1_MG1655.protein.fa"
+write_path = "../output/Ecoli_K-1_MG1655.csv"
 
 
 def calculate_overlap(pool, row, col, lock, current, total, start):
@@ -72,7 +73,7 @@ if __name__ == '__main__':
     print("The function run time is : %.03f seconds" % (end_time - start_time).seconds)
 
     # accessor.format_output("overlap matrix", overlap_matrix)
-    with open("../output/Ecoli_K-1_MG1655.csv", "w", encoding="utf-8") as save_file:
+    with open(write_path, "w", encoding="utf-8") as save_file:
         for row in range(len(overlap_matrix)):
             row_data = str(overlap_matrix[row])[1: -1]
             save_file.write(row_data + "\n")
