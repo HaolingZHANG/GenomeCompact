@@ -1,0 +1,424 @@
+LOCUS       yeast_chr13_0_00:461..4684.yeast_chr13_0_00:82219..82849.yeast_chr13_0_00:244149..245914.yeast_chr13_0_00:413982..416053         8693 bp    dna     linear   UNK 
+ACCESSION   unknown
+KEYWORDS    .
+FEATURES             Location/Qualifiers
+     gene            complement(1..4224)
+                     /essential_status="Nonessential"
+                     /ID="YML133C"
+                     /display="Putative protein of unknown function with
+                     similarity to helicases"
+                     /dbxref="SGD:S000004602"
+                     /note="Putative protein of unknown function with
+                     similarity to helicases; the authentic  non-tagged
+                     protein is detected in highly purified mitochondria in
+                     high-throughput studies; YML133C contains an intron"
+                     /orf_classification="Uncharacterized"
+                     /Ontology_term="GO:0004386"
+                     /Ontology_term="GO:0005739"
+                     /Ontology_term="GO:0008150"
+                     /label=YML133C
+                     /Name="YML133C"
+     mRNA            complement(1..4224)
+                     /essential_status="Nonessential"
+                     /ID="YML133C_mRNA"
+                     /label=YML133C_mRNA
+                     /Name="YML133C_mRNA"
+                     /Parent="YML133C"
+     CDS             complement(join(1..3331,3431..4224))
+                     /essential_status="Nonessential"
+                     /ID="YML133C_mRNA_CDS_1"
+                     /ApEinfo_revcolor="#b0e0e6"
+                     /Parent="YML133C_mRNA"
+                     /orf_classification="Uncharacterized"
+                     /ApEinfo_fwdcolor="#b0e0e6"
+                     /label=YML133C_mRNA_1
+                     /Name="YML133C_mRNA_CDS_1"
+     gene            367..849
+                     /essential_status="Nonessential"
+                     /ID="YML133W-B"
+                     /display="Dubious open reading frame unlikely to encode a
+                     functional protein"
+                     /dbxref="SGD:S000028690"
+                     /note="Dubious open reading frame unlikely to encode a
+                     protein  based on available experimental and comparative
+                     sequence data; completely overlaps the uncharacterized
+                     ORF YML133C"
+                     /orf_classification="Dubious"
+                     /Ontology_term="GO:0003674"
+                     /Ontology_term="GO:0005575"
+                     /Ontology_term="GO:0008150"
+                     /label=YML133W-B
+                     /Name="YML133W-B"
+     CDS             367..849
+                     /essential_status="Nonessential"
+                     /ID="YML133W-B_CDS"
+                     /ApEinfo_revcolor="#191970"
+                     /Parent="YML133W-B"
+                     /orf_classification="Dubious"
+                     /ApEinfo_fwdcolor="#191970"
+                     /label=YML133W-B
+                     /Name="YML133W-B_CDS"
+     gene            1150..1725
+                     /essential_status="Nonessential"
+                     /ID="YML133W-A"
+                     /display="Dubious open reading frame unlikely to encode a
+                     functional protein"
+                     /dbxref="SGD:S000028689"
+                     /note="Dubious open reading frame unlikely to encode a
+                     protein  based on available experimental and comparative
+                     sequence data; completely overlaps the uncharacterized
+                     ORF YML133C"
+                     /orf_classification="Dubious"
+                     /Ontology_term="GO:0003674"
+                     /Ontology_term="GO:0005575"
+                     /Ontology_term="GO:0008150"
+                     /label=YML133W-A
+                     /Name="YML133W-A"
+     CDS             1150..1725
+                     /essential_status="Nonessential"
+                     /ID="YML133W-A_CDS"
+                     /ApEinfo_revcolor="#191970"
+                     /Parent="YML133W-A"
+                     /orf_classification="Dubious"
+                     /ApEinfo_fwdcolor="#191970"
+                     /label=YML133W-A
+                     /Name="YML133W-A_CDS"
+     repeat_region   1205..1631
+                     /ID="TEL13L-YP_repeat_region"
+                     /label=TEL13L-YP_repeat_region
+                     /Name="TEL13L-YP_repeat_region"
+                     /dbxref="SGD:S000028923"
+     intron          complement(3332..3430)
+                     /orf_classification="Uncharacterized"
+                     /ID="YML133C_mRNA_intron"
+                     /label=YML133C_mRNA_intron
+                     /Name="YML133C_mRNA_intron"
+                     /Parent="YML133C_mRNA"
+     gene            complement(4225..4626)
+                     /essential_status="fast_growth"
+                     /ID="YML094C-A"
+                     /display="Dubious open reading frame unlikely to encode a
+                     functional protein"
+                     /dbxref="SGD:S000004561"
+                     /note="Dubious open reading frame unlikely to encode a
+                     protein  based on available experimental and comparative
+                     sequence data; partially overlaps the verified gene
+                     GIM5/YML094W; deletion confers sensitivity to GSAO"
+                     /orf_classification="Dubious"
+                     /Alias="YML095C-A"
+                     /Ontology_term="GO:0003674"
+                     /Ontology_term="GO:0005575"
+                     /Ontology_term="GO:0008150"
+                     /label=YML094C-A
+                     /Name="YML094C-A"
+     CDS             complement(4225..4626)
+                     /essential_status="fast_growth"
+                     /ID="YML094C-A_CDS"
+                     /ApEinfo_revcolor="#800080"
+                     /Parent="YML094C-A"
+                     /orf_classification="Dubious"
+                     /ApEinfo_fwdcolor="#800080"
+                     /label=YML094C-A
+                     /Name="YML094C-A_CDS"
+     gene            4281..4855
+                     /essential_status="fast_growth"
+                     /ID="YML094W"
+                     /gene="GIM5"
+                     /display="Subunit of the heterohexameric cochaperone
+                     prefoldin complex"
+                     /dbxref="SGD:S000004559"
+                     /note="Subunit of the heterohexameric cochaperone
+                     prefoldin complex which binds specifically to cytosolic
+                     chaperonin and transfers target proteins to it"
+                     /orf_classification="Verified"
+                     /Alias="GIM5"
+                     /Alias="PFD5"
+                     /Ontology_term="GO:0005737"
+                     /Ontology_term="GO:0007021"
+                     /Ontology_term="GO:0015631"
+                     /Ontology_term="GO:0016272"
+                     /label=YML094W
+                     /Name="YML094W"
+     mRNA            4281..4855
+                     /essential_status="fast_growth"
+                     /ID="YML094W_mRNA"
+                     /label=YML094W_mRNA
+                     /Name="YML094W_mRNA"
+                     /Parent="YML094W"
+     CDS             join(4281..4296,4380..4855)
+                     /essential_status="fast_growth"
+                     /ID="YML094W_mRNA_CDS_1"
+                     /ApEinfo_revcolor="#800080"
+                     /Parent="YML094W_mRNA"
+                     /orf_classification="Verified"
+                     /ApEinfo_fwdcolor="#800080"
+                     /label=YML094W_mRNA_1
+                     /Name="YML094W_mRNA_CDS_1"
+     intron          4297..4379
+                     /orf_classification="Verified"
+                     /ID="YML094W_mRNA_intron"
+                     /label=YML094W_mRNA_intron
+                     /Name="YML094W_mRNA_intron"
+                     /Parent="YML094W_mRNA"
+     gene            4856..6610
+                     /essential_status="Nonessential"
+                     /ID="YML013W"
+                     /gene="UBX2"
+                     /display="Protein involved in ER-associated protein
+                     degradation"
+                     /dbxref="SGD:S000004475"
+                     /note="Protein involved in ER-associated protein
+                     degradation; proposed to coordinate the assembly of
+                     proteins involved in ERAD; contains a UBX (ubiquitin
+                     regulatory X) domain and a ubiquitin-associated (UBA)
+                     domain"
+                     /orf_classification="Verified"
+                     /Alias="UBX2"
+                     /Alias="SEL1"
+                     /Ontology_term="GO:0000837"
+                     /Ontology_term="GO:0005741"
+                     /Ontology_term="GO:0005783"
+                     /Ontology_term="GO:0009306"
+                     /Ontology_term="GO:0030176"
+                     /Ontology_term="GO:0030433"
+                     /Ontology_term="GO:0030674"
+                     /Ontology_term="GO:0043161"
+                     /label=YML013W
+                     /Name="YML013W"
+     CDS             4856..6610
+                     /essential_status="Nonessential"
+                     /ID="YML013W_CDS"
+                     /ApEinfo_revcolor="#191970"
+                     /Parent="YML013W"
+                     /orf_classification="Verified"
+                     /ApEinfo_fwdcolor="#191970"
+                     /label=YML013W
+                     /Name="YML013W_CDS"
+     gene            complement(6244..6621)
+                     /essential_status="fast_growth"
+                     /ID="YML012C-A"
+                     /display="Dubious open reading frame unlikely to encode a
+                     functional protein"
+                     /dbxref="SGD:S000004474"
+                     /note="Dubious open reading frame unlikely to encode a
+                     protein  based on available experimental and comparative
+                     sequence data; partially overlaps the verified gene SEL1"
+                     /orf_classification="Dubious"
+                     /Alias="YML013C-A"
+                     /Ontology_term="GO:0003674"
+                     /Ontology_term="GO:0005575"
+                     /Ontology_term="GO:0008150"
+                     /label=YML012C-A
+                     /Name="YML012C-A"
+     CDS             complement(6244..6621)
+                     /essential_status="fast_growth"
+                     /ID="YML012C-A_CDS"
+                     /ApEinfo_revcolor="#800080"
+                     /Parent="YML012C-A"
+                     /orf_classification="Dubious"
+                     /ApEinfo_fwdcolor="#800080"
+                     /label=YML012C-A
+                     /Name="YML012C-A_CDS"
+     gene            6622..8676
+                     /essential_status="Nonessential"
+                     /ID="YMR075W"
+                     /gene="RCO1"
+                     /display="Essential subunit of the histone deacetylase
+                     Rpd3S complex"
+                     /dbxref="SGD:S000004680"
+                     /note="Essential subunit of the histone deacetylase Rpd3S
+                     complex; interacts with Eaf3p"
+                     /orf_classification="Verified"
+                     /Alias="RCO1"
+                     /Ontology_term="GO:0000118"
+                     /Ontology_term="GO:0003674"
+                     /Ontology_term="GO:0005634"
+                     /Ontology_term="GO:0006368"
+                     /Ontology_term="GO:0016575"
+                     /Ontology_term="GO:0030174"
+                     /Ontology_term="GO:0032221"
+                     /Ontology_term="GO:0033698"
+                     /Ontology_term="GO:0060195"
+                     /label=YMR075W
+                     /Name="YMR075W"
+     CDS             6622..8676
+                     /essential_status="Nonessential"
+                     /ID="YMR075W_CDS"
+                     /ApEinfo_revcolor="#191970"
+                     /Parent="YMR075W"
+                     /orf_classification="Verified"
+                     /ApEinfo_fwdcolor="#191970"
+                     /label=YMR075W
+                     /Name="YMR075W_CDS"
+     gene            complement(8328..8693)
+                     /essential_status="Nonessential"
+                     /ID="YMR075C-A"
+                     /display="Dubious open reading frame unlikely to encode a
+                     functional protein"
+                     /dbxref="SGD:S000004679"
+                     /note="Dubious open reading frame unlikely to encode a
+                     protein  based on available experimental and comparative
+                     sequence data; completely overlaps the verified ORF
+                     RCO1/YMR075W"
+                     /orf_classification="Dubious"
+                     /Ontology_term="GO:0003674"
+                     /Ontology_term="GO:0005575"
+                     /Ontology_term="GO:0008150"
+                     /label=YMR075C-A
+                     /Name="YMR075C-A"
+     CDS             complement(8328..8693)
+                     /essential_status="Nonessential"
+                     /ID="YMR075C-A_CDS"
+                     /ApEinfo_revcolor="#191970"
+                     /Parent="YMR075C-A"
+                     /orf_classification="Dubious"
+                     /ApEinfo_fwdcolor="#191970"
+                     /label=YMR075C-A
+                     /Name="YMR075C-A_CDS"
+ORIGIN      
+        1 tcactctcca acttctctgc tcgaatctct acatagtaat attatatcaa atctaccgtc
+       61 tggaacatca tcgctatcca gctctttgtg aaccgctacc atcagcatgt acagcggtac
+      121 cctcgtgtta tctgcagcga gaacttcaac gtttgccaaa tcaacccaat gtggtaacaa
+      181 ccacacctcc gaaatctgct ccaaaagata ttccagtttc tgccgaaatg ttttattgta
+      241 gaacagccct atcagcatcg acaggaatgc cgtccaatgc ggcactttag atggggtaac
+      301 tcccagcgca agctgatctc gcaagtgcat tcctagactt aattcatatc tgctcctcaa
+      361 ctgtcgatga tgcctgctaa actgcagctt gacgtactgc ggaccctgca gtccagcgct
+      421 cgtcatggaa cgcaaacgct gaaaaactcc aactttctcg agcgcttcca caaagaccgt
+      481 atcgtctttt gcctcccatt cttcccggca ctttttttcg tcccagttca aaaagtactg
+      541 cagcacctct gtcttcgatt cacgcaagtt gctccatact ttataataca actctttgat
+      601 ctgccttcca gacatgcgga aaacttggct cccttgcttg cctcttgtcg aatccaatac
+      661 actaattgtt tctcttcttc tagtaatggc caggtaccaa gcataatttc tctgtatctg
+      721 agagtagatc tctccccttt ttacgctaaa aaatttcaaa taccctacag ggtccccatg
+      781 atatggctcg atgtcttcca agtattcttt gtattcctcg tcatttcgca gcattctctc
+      841 cacagctagt gcttcccaag ccatcctccg atacgatact ttctggccag cccaacagac
+      901 acagagctcg aacatctttt gacagccctt gcataatccg tattgtgtga atactccctc
+      961 tgggcagaag tatatgtcaa taccatagag gaaaagatgt ttaatttcgt cagaccgaaa
+     1021 tccaagaaac tgtaagacat tcatattctc ggaagtattg ggaaattgtg ctttcagttt
+     1081 ctttctctct agcaaaacca tttgactccc tttccgctta tacgactctt tgttaatgtc
+     1141 ggtgactgga tggaatctat tatcctcagc attgccatct ttattggcgt cctccttggc
+     1201 actagcgttg gtactttcag tggtagtggc attagtgctg gagttggtgc tagcagtggt
+     1261 agtggcatta gtgctggagt tggtgctagc agtggtagta gcactagtgt tggagtcggt
+     1321 actttcggtg gtagtagcac tagtgttgga gtcggtactt tcggtggtag tagcactagt
+     1381 gttggagttg gtactttcag tggtagtcgc actagtcctg acgttgatgc tggcagtggt
+     1441 agtagcacta gtcctgacgt tggtgctggc agtggtagta gcattagtgc tggagttggt
+     1501 actttcagtg gtagtcgcac tagtcctgac gttgatgctg gcagtggtag tagcactagt
+     1561 cctgacgttg gtgctggcag tggtagtagc attagtgctg gagttggtag tcgcattggt
+     1621 actggcatta gcactaccat gaatgcacgt gtcgctgtcc tcatcactgc tgcaatactt
+     1681 tctgcacctg tcactgctat tgctctcctg gaagctagac ggtaacgcaa cgatcgacat
+     1741 ggaagctgtc gcctgttttt cagccaatct gtccattctt tctatcagtt ccactgtgtc
+     1801 agcagacagg tctgtcctgg agccacagca tccaacatgc tggccctttt ttcctttctt
+     1861 tgattcaagt ccatagaact cgcgtacctg ttcggttata cagccttcct taattggtgg
+     1921 taattcaccc ttacgattcc ttgccgccca actgtttttt ctagataata gataacagag
+     1981 gcccccatct cttagtctcc ctacgccttg aatgagctca ataatattaa gtctattatc
+     2041 aagcatgatc accatcatca attgcttaat gtcaattcct tcagtcacta atttcgttcc
+     2101 gatgagaact cgcatgctac cgtcagtgac aaactccttt gtgcgagaca ccttttctgc
+     2161 agcacccagc ttcccgtgta tccataccac cctaaaatac tttctccaag agcaggccaa
+     2221 ttcttccact tcgttggttg tgcttgcaac tacaatggcc ttcgactctg gttcaatttc
+     2281 aaagagggct aaaagaagct tcagtgcttc ttcgggctgt gattccactt tcttccaaat
+     2341 tttatgaaca tgccctaaag gcacctcgga tttctccttg attagattaa acatccgtgt
+     2401 tggatagctg gatagacctc tgctgagatc ttccgaccgt ttgagctcgt tgatgtccat
+     2461 cgacttcttg gccagtcccg taagcccaat acgctgcaac gcagcatcag ctacagcctc
+     2521 aggtgctgtg ccgctcaaaa agattgcttt ctcaaaagcg tcaaaatcaa ggttagttat
+     2581 gcccccaaat tgcgactgcc ggtagacctc cgtttcaaag ttgtgaaact catctacaat
+     2641 gaggtaaccc aattttacgt tgttggtcct aaaggtgcac tcaacaatat tctcccacgc
+     2701 agctatcctg tctgtgaaat tagtgctagc aagatcatcg tagatcccca cgtataaatc
+     2761 agtaacgcca tcgcaacctt cttcaataaa gtttcttaca ggggccacat tcaagcaacc
+     2821 gcatcggctc aacctgatca tgcaattagc aagcaacact gtgtacggta caaacagaaa
+     2881 cgacacatat ttcacgtcgc ccttagacgc cagtgctatc aaggggagat gaaataactc
+     2941 cgtcttacca tagcccggtg gggcctgtac tgccacagag ggtgtgtctg ccatgtatat
+     3001 ttcatgacat aagcgcaact gatgcaagtc cctgaattca aaggagctgc caaagagttt
+     3061 ctggcctgcg acgaggatat cgtttgtact cttgggctct cggggccttt ttcgcgttac
+     3121 tcttgaaatt ttttgatgat gatctgaact cgccgcctca cctgccacta cgtcttccgc
+     3181 attccgagta ctagagaatg aacaatggta gtcgctttca aggcctaacc attgaatcca
+     3241 gcgctcggaa gtgagtccgt caagcgtctt tagtcgaggc tccgatgaac tgttcttgtt
+     3301 gtatcgtcga cgtatacgtt gcgctgtagc tctggataac ggtaagcgta tcaccgtaag
+     3361 ctcgtcaatt atttttgaga gccgcggtca ttttgttagt atctcttctc aacttgggca
+     3421 gcacacatgc aaaacatcac ccaatcggtc ctttttgttc atcatatcgt tacatatctg
+     3481 tgaaaagtac tttatctcaa tgggtttacg tgggcataga tcacgcttca gccgctctgt
+     3541 gtcgactttc ttttcgccag gtaaacttgc ttggtatgca gaaaaaatcg atagctcatc
+     3601 tacgtgtagt aacaaaaaca tgtggggtgc caaattgtac ccatatctcc ttatggtgct
+     3661 tttctgaaga ctccttacaa taggtgcgcc agaaacaaag tcagtgaaag tacgcatcgt
+     3721 agagctgtcg ttcggcctgg cactcgctat ttcgtgacaa cgttccagga cacggaaact
+     3781 caactcatta tagtatcctc tgttgaggta aaaaagagaa agggtatcgt aatcctttct
+     3841 attgaatttc aaagtatgca cttgaaacaa cgtgtagacc atcaagttga ttttcttggg
+     3901 aataagatac tttgaaggga ttggtccgcc ctggaaatct ggttcgtctt caacaaacgt
+     3961 caggaacttt tgtacatttt tcccgaccat gacggaaacg acaatttttt caaaagacct
+     4021 tttcctatcc attgcaccag ttctgaattt taccactttg attaggccag acttttcgtc
+     4081 ttcgtagaat gaccgcactt ccgtggggat cgattcaaat aaagttattg agggacaatg
+     4141 taccaagtcg tttttgttat ttagagccga ctcaaactcg tcaaagtttg ctttttcaaa
+     4201 cttacgccta tcggaaactt tcatttagat gaaaatcttg ctgtgaccca aacaagaaag
+     4261 agcactgtaa aaatcaagcc atgtcctctc aaaaaagtat gtaaatgaat agctccttcg
+     4321 ttgttgccac cgtacagaca ctttactaac ttttaagtta ctacatgttc gaaacttagt
+     4381 cgatttaact aaactaaatc ccgagcagct gaatgctgta aaacagcaat tcgaccaaga
+     4441 attgcagcat ttcacacagt ccttgcaagc attaaccatg gctaagggca agttcacaga
+     4501 atgtattgat gatattaaaa cagtctccca agcaggaaat gaagggcaaa aactactggt
+     4561 tccagcatct gcatcattat acatcccagg taagattgta gacaataaga aattcatggt
+     4621 cgacattggt acaggatatt acgttgaaaa gagcgctgaa gcagcaatcg cattttacca
+     4681 aaagaaagta gacaagctta acaaagaatc tgtacagatc caagatatta ttaaggaaaa
+     4741 gacccagtat tccttgtcca tcgaggccca aataagacaa gccgctatta gacagcatga
+     4801 agcgatgagt aaacaacaac agcagcaaca aaaaaaggag tcgtctacag cctagatgcc
+     4861 agtagtcaat catgaggata gtgaatttca cctttcgcac acagaagagg acaagttaaa
+     4921 tgagttccag gtcatcacga atttcccccc agaagacttg ccagatgtgg tgagactgtt
+     4981 gaggaaccat ggttggcagt tagaaccagc attgagccga tatttcgatg gagagtggaa
+     5041 aggcgaacca gaccagatgg gagagcccac tcaaacgtct acacccatgg ctgagacctt
+     5101 ggttcctccc gcgttgggac ctagaccgtt gttatttaca gcctcactgc ccgtggtcag
+     5161 accattgcca gcgaacttcc gcaatgattt cagaacaatt gggctaaatg gacgctctaa
+     5221 cactgtgtgg tccatgtttg aatcttttag ttatgatggt aacccctttc tttttatttt
+     5281 actgttgatc cctcggataa tcaataggtt atctgccaca atattcacgt tcttttgcac
+     5341 tctattgtcc ctgcattcga taagtggtgg cggtaattca ggaaaaccca agatctccaa
+     5401 ggttccaaag gcaccaacca gagaaaccca tatcccactt gcagaaatac tgggtgacac
+     5461 gaaggacaag gatgcatttt gcgaactaaa aagctttaaa ccagacattt ccttcaatga
+     5521 ggccttgcgt attgcaaaag aagagtttaa gtttatgttg ctcatcctag tgggcgacac
+     5581 ctacgatacc gatactgata ccgtagatgt taattctaaa ctactattgg aaaagatttt
+     5641 gttaaacaag aagactttac agtacttgcg caagattgat aacgacctga ttatctattt
+     5701 gaaatgcgta cacgagttgg aaccttggct ggttgctcgc caactaggtg tcagaaacac
+     5761 cccggagata ttcctcattg ccaacgtggc taataaggct tcccattcag aaactttgcc
+     5821 ctcacaaaga ctctccattc tcggcaagct aaaggtcaat tcactgaaca gattcttgca
+     5881 gtcgttaaca aacgtggtgg aaaagtacac tccagaatta gttgttaata aaactgaaat
+     5941 gcacgagcta cgcatgtcaa gagaaataaa aaaactgcag gaggatgcgt acaaaaagtc
+     6001 gctagaaatg gacagaatca aagctataga aaaggaaaag agcttgaaac acgctcagga
+     6061 tttgaaatta aactcaactg ctcggcaatt aaaatggtta aaggcttgca tcgatgagat
+     6121 acagccgttc gagacaacgg ggaagcaagc tactctgcaa tttaggactt ctagtggcaa
+     6181 aagattcgtc aagaagttcc cctccatgac tacactttac caaatctacc aatccattgg
+     6241 gtgtcacata tacctcgcgg tatattctag tgaccccgca gaatggtcta acgccctcca
+     6301 ggacaaaatc aggcaattat ctgcagacga cgatatgctc tgctttaaag aaggacaact
+     6361 cgaaactgct actgctacca ctatcgaaga gctcggccac atcatcaaca acgagcttac
+     6421 ctcatttgat ctcgaacgtg gtaaacttga attcgacttt gaattggtat cgcccttccc
+     6481 taagtatact gtgcatccta acgagcacat gtcggtggac caagtgcccc agctatggcc
+     6541 aaatggcagt cttctagtgg aagcactgga tgaagaagat gaagaagatg aggaaaatga
+     6601 agaacaatga taaaatagca tatggacacc agcaagaaag atactactag gtcgccctca
+     6661 cattccaaca gttcttctcc ttcatcttct tctctctctt catcttcttc caaagagaaa
+     6721 aaacgtccta agagactatc ctcccagaat gtaaattacg atttgaaaag gagaaagatc
+     6781 atcacttctg aaggtataga aagatcattc aagaacgagc atagcaatct tgcagttgaa
+     6841 gacaatatcc cggaagaaga acccaaggaa cttcttgaaa aggactccaa gggtaatatc
+     6901 atcaaactta atgagccatc caccatctcg gaagattcga aggtatctgt cactggattg
+     6961 ccgttaaata aaggtccttc tgagaaaatc aagcgagagt ctctttggaa ttatagaaaa
+     7021 aatttgggag gccaatcgaa caactcagaa atgacgctgg tccccagtaa aagatttact
+     7081 caggtgccga aaaattttca ggatttgaac agaaatgatt tgaaaacgtt tttaactgag
+     7141 aacatgactg aagagagcaa tatacggtca actattggtt ggaatggcga tataataaac
+     7201 agaactcgtg accgtgaacc tgaaagcgac cgcgataata aaaagctatc aaatattaga
+     7261 accaaaataa tactttcaac gaatgctacc tatgattcaa aaagtaaact atttggccaa
+     7321 aattccatca agtcaacatc gaatgcgagt gaaaaaattt tcagggacaa gaacaattca
+     7381 accatagatt ttgagaatga agatttttgt tcggcttgta atcagtcagg ttctttttta
+     7441 tgctgtgata catgccccaa atcctttcac tttctttgct tagacccacc aattgatccg
+     7501 aacaacctgc ctaaaggtga ttggcattgt aatgaatgta agtttaaaat cttcataaat
+     7561 aactcaatgg caactttaaa aaaaattgaa tccaacttca ttaagcaaaa taacaacgtc
+     7621 aagatttttg ctaaattact tttcaatatc gattcccaca acccaaaaca gttccagcta
+     7681 ccaaattata taaaagaaac ctttcctgct gtgaaaacgg gttcgagagg acaatactct
+     7741 gatgagaatg ataagattcc attaactgat agacaattgt ttaacacttc ttatggccaa
+     7801 agcataacta aattggactc ttacaacccg gatacacata tagattcaaa ttcaggtaag
+     7861 tttttaattt gttacaaatg caatcaaacc agactaggtt catggtctca tccagaaaat
+     7921 tcaagattaa taatgacttg tgattattgt cagactccat ggcatttgga ttgtgtaccg
+     7981 agggcttctt tcaagaactt aggttcaaaa tggaaatgtc ctctacattc cccaactaaa
+     8041 gtttacaaaa agatacacca ttgtcaagaa gataatagcg taaattataa ggtgtggaaa
+     8101 aaacaacgat tgataaacaa gaaaaaccaa ctttattatg aacctttaca aaaaataggc
+     8161 taccaaaata acgggaacat tcaaatcata ccaacaacta gtcatacaga ttatgatttc
+     8221 aatcaagatt tcaaaattac acaaatagat gaaaattcca ttaaatatga tttttttgat
+     8281 aaaatttaca aatcaaaaat ggttcaaaaa agaaaactct ttcaatttca agaaagttta
+     8341 atagataagt tagtatcaaa tggatcccaa aatggcaata gcgaggataa tatggtcaaa
+     8401 gacatagcct ctttaatata tttccaagtt agcaacaacg acaagagtag taacaataaa
+     8461 tcggcttcca aaagcaataa cttaagaaaa ttatgggatt tgaaagaact gactaacgta
+     8521 gtcgtgccga acgaactaga ttctatacaa ttcaatgact tttccagcga tgaaataaag
+     8581 catctgttat atttaaagaa gattatcgaa tccaaaccaa aggaagaact gttaaaattt
+     8641 ttaaacatag aaaatcccga aaaccaatcc gaatagaaac ggcgtacata cat
+//

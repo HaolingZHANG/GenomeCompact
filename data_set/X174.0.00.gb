@@ -1,0 +1,326 @@
+LOCUS       X174.0.00               5386 bp    dna     linear   UNK 
+ACCESSION   unknown
+KEYWORDS    .
+FEATURES             Location/Qualifiers
+     misc_feature    17..70
+                     /note="n' binding site"
+     misc_feature    99..119
+                     /note="RBS IV(G)"
+     gene            111..638
+                     /locus_tag="phiX174p10"
+                     /db_xref="GeneID:2546401"
+     CDS             111..638
+                     /locus_tag="phiX174p10"
+                     /db_xref="GeneID:2546401"
+                     /codon_start=1
+                     /protein_id="NP_040712.1"
+                     /gene="G"
+                     /translation="MFQTFISRHNSNFFSDKLVLTSVTPASSAPVLQTPKATSSTLYF
+                     DSLTVNAGNGGFLHCIQMDTSVNAANQVVSVGADIAFDADPKFFACLVRFESSSVPTT
+                     LPTAYDVYPLNGRHDGGYYTVKDCVTIDVLPRTPGNNVYVGFMVWSNFTATKCRGLVS
+                     LNQVIKEIICLQPLK"
+                     /transl_table=11
+                     /note="major spike protein"
+     gene            647..1633
+                     /locus_tag="phiX174p11"
+                     /db_xref="GeneID:2546407"
+     CDS             647..1633
+                     /locus_tag="phiX174p11"
+                     /function="adsorption"
+                     /protein_id="NP_040713.1"
+                     /gene="H"
+                     /transl_table=11
+                     /note="minor spike protein"
+                     /db_xref="GeneID:2546407"
+                     /codon_start=1
+                     /translation="MFGAIAGGIASALAGGAMSKLFGGGQKAASGGIQGDVLATDNNT
+                     VGMGDAGIKSAIQGSNVPNPDEAAPSFVSGAMAKAGKGLLEGTLQAGTSAVSDKLLDL
+                     VGLGGKSAADKGKDTRDYLAAAFPELNAWERAGADASSAGMVDAGFENQKELTKMQLD
+                     NQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTN
+                     LSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHI
+                     GATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+     misc_feature    1397..1487
+                     /note="P5211"
+     misc_feature    1618..1709
+                     /note="PA"
+     misc_feature    1660..1708
+                     /note="T4"
+     misc_feature    1678
+                     /locus_tag="phiX174p06"
+                     /note="transcription start site"
+     gene            1697..3238
+                     /locus_tag="phiX174p01"
+                     /db_xref="GeneID:2546398"
+     CDS             1697..3238
+                     /locus_tag="phiX174p01"
+                     /function="viral strand synthesis"
+                     /protein_id="NP_040703.1"
+                     /gene="A"
+                     /transl_table=11
+                     /note="rf replication"
+                     /db_xref="GeneID:2546398"
+                     /codon_start=1
+                     /translation="MVRSYYPSECHADYFDFERIEALKPAIEACGISTLSQSPMLGFH
+                     KQMDNRIKLLEEILSFRMQGVEFDNGDMYVDGHKAASDVRDEFVSVTEKLMDELAQCY
+                     NVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGI
+                     KDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPN
+                     ALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTG
+                     SVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKA
+                     TSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGM
+                     KMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTT
+                     NLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKW
+                     TAGGK"
+     rep_origin      2022
+                     /locus_tag="phiX174p01"
+                     /note="origin of viral strand synthesis"
+     misc_feature    2033..2081
+                     /note="T1"
+     misc_feature    2156..2173
+                     /note="T1'"
+     gene            2213..3238
+                     /locus_tag="phiX174p02"
+                     /db_xref="GeneID:2546406"
+     CDS             2213..3238
+                     /locus_tag="phiX174p02"
+                     /function="shut off host DNA synthesis"
+                     /protein_id="NP_040704.1"
+                     /gene="A*"
+                     /transl_table=11
+                     /db_xref="GeneID:2546406"
+                     /codon_start=1
+                     /translation="MKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDN
+                     PNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLP
+                     TGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPL
+                     KATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNF
+                     GMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPV
+                     TTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKS
+                     KWTAGGK"
+     misc_feature    2554..2644
+                     /note="PB"
+     misc_feature    2615
+                     /locus_tag="phiX174p02"
+                     /note="transcription start site"
+     misc_feature    2768..2805
+                     /note="RBS I (B)"
+     gene            2791..3153
+                     /locus_tag="phiX174p03"
+                     /db_xref="GeneID:2546405"
+     CDS             2791..3153
+                     /locus_tag="phiX174p03"
+                     /function="capsid morphogenesis"
+                     /protein_id="NP_040705.1"
+                     /gene="B"
+                     /transl_table=11
+                     /db_xref="GeneID:2546405"
+                     /codon_start=1
+                     /translation="MEQLTKNQAVATSQEAVQNQNEPQLRDENAHNDKSVHGVLNPTY
+                     QAGLRRDAVQPDIEAERKKRDEIEAGKSYCSRRFGGATCDDKSAQIYARFDKNDWRIQ
+                     PAEFYRFHDAEVNTFGYF"
+     variation       3125
+                     /locus_tag="phiX174p03"
+                     /replace="t"
+                     /note="in am18 and am35 [14]"
+     variation       3127
+                     /locus_tag="phiX174p03"
+                     /replace="c"
+                     /note="ts116 [14]"
+     gene            3153..3323
+                     /locus_tag="phiX174p04"
+                     /db_xref="GeneID:2546403"
+     CDS             3153..3323
+                     /locus_tag="phiX174p04"
+                     /db_xref="GeneID:2546403"
+                     /codon_start=1
+                     /protein_id="NP_040706.1"
+                     /gene="K"
+                     /translation="MSRKIILIKQELLLLVYELNRSGLLAENEKIRPILAQLEKLLLC
+                     DLSPSTNDSVKN"
+                     /transl_table=11
+     variation       3159
+                     /locus_tag="phiX174p04"
+                     /replace="c"
+                     /note="am6 [14]"
+     variation       3219
+                     /locus_tag="phiX174p04"
+                     /replace="a"
+                     /note="am6 [14]"
+     misc_feature    3227..3237
+                     /note="RBS(C)"
+     gene            3235..3495
+                     /locus_tag="phiX174p05"
+                     /db_xref="GeneID:2546402"
+     CDS             3235..3495
+                     /locus_tag="phiX174p05"
+                     /db_xref="GeneID:2546402"
+                     /codon_start=1
+                     /protein_id="NP_040707.1"
+                     /gene="C"
+                     /translation="MRKFDLSLRSSRSSYFATFRHQLTILSKTDALDEEKWLNMLGTF
+                     VKDWFRYESHFVHGRDSLVDILKERGLLSESDAVQPLIGKKS"
+                     /transl_table=11
+                     /note="DNA maturation"
+     misc_feature    3398..3487
+                     /note="PD"
+     gene            3460..4093
+                     /locus_tag="phiX174p07"
+                     /db_xref="GeneID:2546399"
+     mRNA            3460..4093
+                     /locus_tag="phiX174p07"
+                     /db_xref="GeneID:2546399"
+                     /product="minor transcript"
+     misc_feature    3481..3494
+                     /note="RBS (D)"
+     CDS             3492..3950
+                     /locus_tag="phiX174p07"
+                     /function="capsid morphogenesis"
+                     /protein_id="NP_040708.1"
+                     /gene="D"
+                     /transl_table=11
+                     /db_xref="GeneID:2546399"
+                     /codon_start=1
+                     /translation="MSQVTEQSVRFQTALASIKLIQASAVLDLTEDDFDFLTSNKVWI
+                     ATDRSRARRCVEACVYGTLDFVGYPRFPAPVEFIAAVIAYYVHPVNIQTACLIMEGAE
+                     FTENIINGVERPVKAAELFAFTLRVRAGNTDVLTDAEENVRQKLRAEGVM"
+     misc_feature    3657..3672
+                     /note="RBS (E)"
+     gene            3670..3945
+                     /locus_tag="phiX174p08"
+                     /db_xref="GeneID:2546400"
+     CDS             3670..3945
+                     /locus_tag="phiX174p08"
+                     /function="cell lysis"
+                     /protein_id="NP_040709.1"
+                     /gene="E"
+                     /transl_table=11
+                     /db_xref="GeneID:2546400"
+                     /codon_start=1
+                     /translation="MVRWTLWDTLAFLLLLSLLLPSLLIMFIPSTFKRPVSSWKALNL
+                     RKTLLMASSVRLKPLNCSRLPCVYAQETLTFLLTQKKTCVKNYVRKE"
+     misc_feature    3936..3969
+                     /note="RBS II(J)"
+     gene            3950..4066
+                     /locus_tag="phiX174p09"
+                     /db_xref="GeneID:2546404"
+     CDS             3950..4066
+                     /locus_tag="phiX174p09"
+                     /db_xref="GeneID:2546404"
+                     /codon_start=1
+                     /protein_id="NP_040710.1"
+                     /gene="J"
+                     /translation="MSKGKKRSGARPGRPQPLRGTKGKRKGARLWYVGGQQF"
+                     /transl_table=11
+                     /note="core protein; DNA condensation"
+     misc_feature    3956..3973
+                     /note="T2'"
+     misc_feature    4049..4098
+                     /note="T2"
+     misc_feature    4092..4121
+                     /note="RBS III(F)"
+     CDS             4103..5386
+                     /locus_tag="phiX174p06"
+                     /db_xref="GeneID:2546408"
+                     /codon_start=1
+                     /protein_id="NP_040711.1"
+                     /gene="F"
+                     /translation="MSNIQTGAERMPHDLSHLGFLAGQIGRLITISTTPVIAGDSFEM
+                     DAVGALRLSPLRRGLAIDSTVDIFTFYVPHRHVYGEQWIKFMKDGVNATPLPTVNTTG
+                     YIDHAAFLGTINPDTNKIPKHLFQGYLNIYNNYFKAPWMPDRTEANPNELNQDDARYG
+                     FRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHD
+                     VISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRF
+                     FVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDV
+                     FRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYD
+                     QCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+                     /transl_table=11
+                     /note="major coat protein"
+ORIGIN      
+        1 taaaagattg agtgtgaggt tataacgccg aagcggtaaa aattttaatt tttgccgctg
+       61 aggggttgac caagcgaagc gcggtaggtt ttctgcttag gagtttaatc atgtttcaga
+      121 cttttatttc tcgccataat tcaaactttt tttctgataa gctggttctc acttctgtta
+      181 ctccagcttc ttcggcacct gttttacaga cacctaaagc tacatcgtca acgttatatt
+      241 ttgatagttt gacggttaat gctggtaatg gtggttttct tcattgcatt cagatggata
+      301 catctgtcaa cgccgctaat caggttgttt ctgttggtgc tgatattgct tttgatgccg
+      361 accctaaatt ttttgcctgt ttggttcgct ttgagtcttc ttcggttccg actaccctcc
+      421 cgactgccta tgatgtttat cctttgaatg gtcgccatga tggtggttat tataccgtca
+      481 aggactgtgt gactattgac gtccttcccc gtacgccggg caataacgtt tatgttggtt
+      541 tcatggtttg gtctaacttt accgctacta aatgccgcgg attggtttcg ctgaatcagg
+      601 ttattaaaga gattatttgt ctccagccac ttaagtgagg tgatttatgt ttggtgctat
+      661 tgctggcggt attgcttctg ctcttgctgg tggcgccatg tctaaattgt ttggaggcgg
+      721 tcaaaaagcc gcctccggtg gcattcaagg tgatgtgctt gctaccgata acaatactgt
+      781 aggcatgggt gatgctggta ttaaatctgc cattcaaggc tctaatgttc ctaaccctga
+      841 tgaggccgcc cctagttttg tttctggtgc tatggctaaa gctggtaaag gacttcttga
+      901 aggtacgttg caggctggca cttctgccgt ttctgataag ttgcttgatt tggttggact
+      961 tggtggcaag tctgccgctg ataaaggaaa ggatactcgt gattatcttg ctgctgcatt
+     1021 tcctgagctt aatgcttggg agcgtgctgg tgctgatgct tcctctgctg gtatggttga
+     1081 cgccggattt gagaatcaaa aagagcttac taaaatgcaa ctggacaatc agaaagagat
+     1141 tgccgagatg caaaatgaga ctcaaaaaga gattgctggc attcagtcgg cgacttcacg
+     1201 ccagaatacg aaagaccagg tatatgcaca aaatgagatg cttgcttatc aacagaagga
+     1261 gtctactgct cgcgttgcgt ctattatgga aaacaccaat ctttccaagc aacagcaggt
+     1321 ttccgagatt atgcgccaaa tgcttactca agctcaaacg gctggtcagt attttaccaa
+     1381 tgaccaaatc aaagaaatga ctcgcaaggt tagtgctgag gttgacttag ttcatcagca
+     1441 aacgcagaat cagcggtatg gctcttctca tattggcgct actgcaaagg atatttctaa
+     1501 tgtcgtcact gatgctgctt ctggtgtggt tgatattttt catggtattg ataaagctgt
+     1561 tgccgatact tggaacaatt tctggaaaga cggtaaagct gatggtattg gctctaattt
+     1621 gtctaggaaa taaccgtcag gattgacacc ctcccaattg tatgttttca tgcctccaaa
+     1681 tcttggaggc ttttttatgg ttcgttctta ttacccttct gaatgtcacg ctgattattt
+     1741 tgactttgag cgtatcgagg ctcttaaacc tgctattgag gcttgtggca tttctactct
+     1801 ttctcaatcc ccaatgcttg gcttccataa gcagatggat aaccgcatca agctcttgga
+     1861 agagattctg tcttttcgta tgcagggcgt tgagttcgat aatggtgata tgtatgttga
+     1921 cggccataag gctgcttctg acgttcgtga tgagtttgta tctgttactg agaagttaat
+     1981 ggatgaattg gcacaatgct acaatgtgct cccccaactt gatattaata acactataga
+     2041 ccaccgcccc gaaggggacg aaaaatggtt tttagagaac gagaagacgg ttacgcagtt
+     2101 ttgccgcaag ctggctgctg aacgccctct taaggatatt cgcgatgagt ataattaccc
+     2161 caaaaagaaa ggtattaagg atgagtgttc aagattgctg gaggcctcca ctatgaaatc
+     2221 gcgtagaggc tttgctattc agcgtttgat gaatgcaatg cgacaggctc atgctgatgg
+     2281 ttggtttatc gtttttgaca ctctcacgtt ggctgacgac cgattagagg cgttttatga
+     2341 taatcccaat gctttgcgtg actattttcg tgatattggt cgtatggttc ttgctgccga
+     2401 gggtcgcaag gctaatgatt cacacgccga ctgctatcag tatttttgtg tgcctgagta
+     2461 tggtacagct aatggccgtc ttcatttcca tgcggtgcac tttatgcgga cacttcctac
+     2521 aggtagcgtt gaccctaatt ttggtcgtcg ggtacgcaat cgccgccagt taaatagctt
+     2581 gcaaaatacg tggccttatg gttacagtat gcccatcgca gttcgctaca cgcaggacgc
+     2641 tttttcacgt tctggttggt tgtggcctgt tgatgctaaa ggtgagccgc ttaaagctac
+     2701 cagttatatg gctgttggtt tctatgtggc taaatacgtt aacaaaaagt cagatatgga
+     2761 ccttgctgct aaaggtctag gagctaaaga atggaacaac tcactaaaaa ccaagctgtc
+     2821 gctacttccc aagaagctgt tcagaatcag aatgagccgc aacttcggga tgaaaatgct
+     2881 cacaatgaca aatctgtcca cggagtgctt aatccaactt accaagctgg gttacgacgc
+     2941 gacgccgttc aaccagatat tgaagcagaa cgcaaaaaga gagatgagat tgaggctggg
+     3001 aaaagttact gtagccgacg ttttggcggc gcaacctgtg acgacaaatc tgctcaaatt
+     3061 tatgcgcgct tcgataaaaa tgattggcgt atccaacctg cagagtttta tcgcttccat
+     3121 gacgcagaag ttaacacttt cggatatttc tgatgagtcg aaaaattatc ttgataaagc
+     3181 aggaattact actgcttgtt tacgaattaa atcgaagtgg actgctggcg gaaaatgaga
+     3241 aaattcgacc tatccttgcg cagctcgaga agctcttact ttgcgacctt tcgccatcaa
+     3301 ctaacgattc tgtcaaaaac tgacgcgttg gatgaggaga agtggcttaa tatgcttggc
+     3361 acgttcgtca aggactggtt tagatatgag tcacattttg ttcatggtag agattctctt
+     3421 gttgacattt taaaagagcg tggattacta tctgagtccg atgctgttca accactaata
+     3481 ggtaagaaat catgagtcaa gttactgaac aatccgtacg tttccagacc gctttggcct
+     3541 ctattaagct cattcaggct tctgccgttt tggatttaac cgaagatgat ttcgattttc
+     3601 tgacgagtaa caaagtttgg attgctactg accgctctcg tgctcgtcgc tgcgttgagg
+     3661 cttgcgttta tggtacgctg gactttgtgg gataccctcg ctttcctgct cctgttgagt
+     3721 ttattgctgc cgtcattgct tattatgttc atcccgtcaa cattcaaacg gcctgtctca
+     3781 tcatggaagg cgctgaattt acggaaaaca ttattaatgg cgtcgagcgt ccggttaaag
+     3841 ccgctgaatt gttcgcgttt accttgcgtg tacgcgcagg aaacactgac gttcttactg
+     3901 acgcagaaga aaacgtgcgt caaaaattac gtgcggaagg agtgatgtaa tgtctaaagg
+     3961 taaaaaacgt tctggcgctc gccctggtcg tccgcagccg ttgcgaggta ctaaaggcaa
+     4021 gcgtaaaggc gctcgtcttt ggtatgtagg tggtcaacaa ttttaattgc aggggcttcg
+     4081 gccccttact tgaggataaa ttatgtctaa tattcaaact ggcgccgagc gtatgccgca
+     4141 tgacctttcc catcttggct tccttgctgg tcagattggt cgtcttatta ccatttcaac
+     4201 tactccggtt atcgctggcg actccttcga gatggacgcc gttggcgctc tccgtctttc
+     4261 tccattgcgt cgtggccttg ctattgactc tactgtagac atttttactt tttatgtccc
+     4321 tcatcgtcac gtttatggtg aacagtggat taagttcatg aaggatggtg ttaatgccac
+     4381 tcctctcccg actgttaaca ctactggtta tattgaccat gccgcttttc ttggcacgat
+     4441 taaccctgat accaataaaa tccctaagca tttgtttcag ggttatttga atatctataa
+     4501 caactatttt aaagcgccgt ggatgcctga ccgtaccgag gctaacccta atgagcttaa
+     4561 tcaagatgat gctcgttatg gtttccgttg ctgccatctc aaaaacattt ggactgctcc
+     4621 gcttcctcct gagactgagc tttctcgcca aatgacgact tctaccacat ctattgacat
+     4681 tatgggtctg caagctgctt atgctaattt gcatactgac caagaacgtg attacttcat
+     4741 gcagcgttac catgatgtta tttcttcatt tggaggtaaa acctcttatg acgctgacaa
+     4801 ccgtccttta cttgtcatgc gctctaatct ctgggcatct ggctatgatg ttgatggaac
+     4861 tgaccaaacg tcgttaggcc agttttctgg tcgtgttcaa cagacctata aacattctgt
+     4921 gccgcgtttc tttgttcctg agcatggcac tatgtttact cttgcgcttg ttcgttttcc
+     4981 gcctactgcg actaaagaga ttcagtacct taacgctaaa ggtgctttga cttataccga
+     5041 tattgctggc gaccctgttt tgtatggcaa cttgccgccg cgtgaaattt ctatgaagga
+     5101 tgttttccgt tctggtgatt cgtctaagaa gtttaagatt gctgagggtc agtggtatcg
+     5161 ttatgcgcct tcgtatgttt ctcctgctta tcaccttctt gaaggcttcc cattcattca
+     5221 ggaaccgcct tctggtgatt tgcaagaacg cgtacttatt cgccaccatg attatgacca
+     5281 gtgtttccag tccgttcagt tgttgcagtg gaatagtcag gttaaattta atgtgaccgt
+     5341 ttatcgcaat ctgccgacca ctcgcgattc aatcatgact tcgtga
+//

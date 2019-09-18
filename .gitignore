@@ -105,3 +105,6 @@ venv.bak/
 
 # remove IDEA
 .idea/
+
+# remove output (result)
+output/
