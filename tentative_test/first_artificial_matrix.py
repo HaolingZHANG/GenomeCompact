@@ -20,7 +20,7 @@ from utils import accessor
 read_path = "../data_set/X174.0.00.protein.fa"
 
 
-def calculate(pool, row, col, lock, current, total, start):
+def calculate_overlap(pool, row, col, lock, current, total, start):
     fuser = Fuser(init_indices(pool[row], pool[col]))
     overlap_length = fuser.calculate_overlap(init_matched_group(pool[row], pool[col]))
 
@@ -57,8 +57,8 @@ if __name__ == '__main__':
 
     for row in range(len(source_pool) - 1):
         for col in range(row + 1, len(source_pool)):
-            result = process_pool.apply_async(calculate, args=(source_pool, row, col, share_lock,
-                                                               current_count, total_count, start_time))
+            result = process_pool.apply_async(calculate_overlap, args=(source_pool, row, col, share_lock,
+                                                                       current_count, total_count, start_time))
             results.append(result)
 
     process_pool.close()
@@ -70,4 +70,9 @@ if __name__ == '__main__':
     print()
     end_time = datetime.now()
     print("The function run time is : %.03f seconds" % (end_time - start_time).seconds)
-    accessor.format_output("overlap matrix", overlap_matrix)
+
+    # accessor.format_output("overlap matrix", overlap_matrix)
+    with open("../output/Ecoli_K-1_MG1655.csv", "w", encoding="utf-8") as save_file:
+        for row in range(len(overlap_matrix)):
+            row_data = str(overlap_matrix[row])[1: -1]
+            save_file.write(row_data + "\n")
