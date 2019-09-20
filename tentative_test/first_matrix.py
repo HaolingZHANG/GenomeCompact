@@ -18,7 +18,7 @@ from methods.dna import PatternDNA
 from utils import accessor
 
 read_path = "../data_set/Ecoli_K-1_MG1655.protein.fa"
-write_path = "../output/Ecoli_K-1_MG1655.csv"
+write_path = "../output/first.csv"
 
 
 def calculate_overlap(pool, row, col, lock, current, total, start):

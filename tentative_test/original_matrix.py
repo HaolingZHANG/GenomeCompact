@@ -2,8 +2,11 @@ import numpy
 
 from utils import accessor
 
+read_path = "../data_set/Ecoli_K-1_MG1655.gb"
+write_path = "../output/original.csv"
+
 if __name__ == "__main__":
-    indices, data_domains, whole_dna_seq = accessor.read_information_by_gb("../data_set/Ecoli_K-1_MG1655.gb")
+    indices, data_domains, whole_dna_seq = accessor.read_information_by_gb(read_path)
     overlap_matrix = [[0 for col in range(len(indices))] for row in range(len(indices) - 1)]
 
     current = 0
@@ -19,7 +22,7 @@ if __name__ == "__main__":
                   " || (" + str(row) + ", " + str(col) + ") = " + str(overlap), end=" ")
 
     # accessor.format_output("original matrix", overlap_matrix)
-    with open("../output/Ecoli_K-1_MG1655.csv", "w", encoding="utf-8") as save_file:
+    with open(write_path, "w", encoding="utf-8") as save_file:
         for row in range(len(overlap_matrix)):
             row_data = str(overlap_matrix[row])[1: -1]
             save_file.write(row_data + "\n")
