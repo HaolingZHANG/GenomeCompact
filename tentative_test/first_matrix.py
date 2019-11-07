@@ -32,6 +32,7 @@ def calculate_overlap(pool, row, col, lock, current, total, start):
           ") || (" + str(row) + ", " + str(col) + ") = " + str(overlap_length) +
           " || left time = " + str(datetime.now() - start), end=" ")
 
+    del fuser
     return [row, col, overlap_length]
 
 

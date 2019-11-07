@@ -104,10 +104,10 @@ class PatternDNA(object):
         """
 
         if start_position != 0:
-            information = [["".join([chr(data) for data in self._t_strand[0]][start_position: stop_position]),
-                            "".join([chr(data) for data in self._t_strand[1]][start_position: stop_position])],
-                           ["".join([chr(data) for data in self._c_strand[0]][start_position: stop_position]),
-                            "".join([chr(data) for data in self._c_strand[1]][start_position: stop_position])]]
+            information = [["".join([chr(data) for data in self._t_strand[0]][start_position: ]),
+                            "".join([chr(data) for data in self._t_strand[1]][start_position: ])],
+                           ["".join([chr(data) for data in self._c_strand[0]][start_position: ]),
+                            "".join([chr(data) for data in self._c_strand[1]][start_position: ])]]
         else:
             information = [["".join([chr(data) for data in self._t_strand[0]][start_position:]),
                             "".join([chr(data) for data in self._t_strand[1]][start_position:])],
